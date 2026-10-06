@@ -11,13 +11,13 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 .utmp/
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
 *.log
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be committed to version control.
@@ -105,3 +105,13 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Large imported asset packs (re-import from the Asset Store / Package Manager)
+**/Assets/TerrainSampleAssets/
+**/Assets/TerrainSampleAssets.meta
+**/Assets/Visual Design Cafe/
+**/Assets/Visual Design Cafe.meta
+**/Assets/DarkMatterMagic/
+**/Assets/DarkMatterMagic.meta
+**/Assets/Music Loops Mini Set 2/
+**/Assets/Music Loops Mini Set 2.meta
